@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  width: 100%;
+  height: 75px;
+  font-size: 28px;
+  background-color: darkgray;
+  border: 0;
+}
+
+.button-line {
+  display: flex;
+  border-bottom: 3px lightgrey solid;
+}
+
+.button-line button {
+  height: 30px;
+  font-size: 14px;
+  color: white;
+  background-color: black;
+}
+
+.victory {
+  background-color: green;
+  color: white;
+  font-size: 48px;
+  width: 100%;
+  height: 75px;
+  border-bottom: 15px white solid;
+}
