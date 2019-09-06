@@ -1,0 +1,8 @@
+const
+  ADD = 'ADD',
+  SUBTRACT = 'SUBTRACT',
+  MULTIPLY = 'MULTIPLY',
+  DIVIDE = 'DIVIDE',
+  WINNER = 'WINNER';
+
+export default { ADD, SUBTRACT, MULTIPLY, DIVIDE, WINNER };

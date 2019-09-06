@@ -1,12 +1,14 @@
+import constants from './game.constants';
+
 export const reducer = (state, action) => {
     switch (action.type) {
-        case 'add':
+        case constants.ADD:
             return { count: Math.ceil(state.count + action.value), attempts: state.attempts + 1 };
-        case 'subtract':
+        case constants.SUBTRACT:
             return { count: Math.ceil(state.count - action.value), attempts: state.attempts + 1 };
-        case 'multiply':
+        case constants.MULTIPLY:
             return { count: Math.ceil(state.count * action.value), attempts: state.attempts + 1 };
-        case 'divide':
+        case constants.DIVIDE:
             return { count: Math.ceil(state.count / action.value), attempts: state.attempts + 1 };
         default:
             return { count: 1, attempts: state.attempts + 1}
